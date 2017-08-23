@@ -23,6 +23,11 @@ converting. Furthermore, you will lose all OpenType features available in the
 original fonts including localization support, vertical writing support and
 「⿺辶⿳穴⿰月⿰⿲⿱幺長⿱言馬⿱幺長刂心」(biáng).
 
+## Download
+
+Click [releases](https://github.com/m13253/kaigen-fonts/releases) to download
+the latest release.
+
 ## Contents
 
 This repository contains the following typefaces:
