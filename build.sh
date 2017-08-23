@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Copyright © 2017 Star Brilliant (https://github.com/m13253/kaigen-fonts)
+# All rights reserved for this script file
+
 set -e
 export LC_ALL=en_US.UTF-8
 
