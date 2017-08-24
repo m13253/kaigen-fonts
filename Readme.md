@@ -91,6 +91,12 @@ You can build Kaigen Fonts on your own from the original Source Han Fonts.
 Make sure you have plenty of RAM (16 GiB will work), plenty of disk space (5
 GiB will work) and plenty of time (several minutes for a single font file).
 
+### Use precompiled Docker image for easy environment setup
+
+See [Jamesits/docker-otfcc-dev](https://github.com/Jamesits/docker-otfcc-dev). You may need this if you don't want to mess up with multiple version of Node.js on your machine. 
+
+### Configure manually
+
 - Install [Node.js](https://nodejs.org) >=8.0
 
 - Install [otfcc](https://github.com/caryll/otfcc)
