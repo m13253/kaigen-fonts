@@ -36,10 +36,12 @@ This repository contains the following typefaces:
 | ------------------------ | ----------------- | ------------------------ | --------------------- |
 | KaigenSansJ-\*.ttf       | Kaigen Sans J     | SourceHanSans-\*.otf     | Source Han Sans       |
 | KaigenSansK-\*.ttf       | Kaigen Sans K     | SourceHanSansK-\*.otf    | Source Han Sans K     |
+| KaigenSansHC-\*.ttf      | Kaigen Sans HC    | SourceHanSansHC-\*.otf   | Source Han Sans HC    |
 | KaigenSansSC-\*.ttf      | Kaigen Sans SC    | SourceHanSansSC-\*.otf   | Source Han Sans SC    |
 | KaigenSansTC-\*.ttf      | Kaigen Sans TC    | SourceHanSansTC-\*.otf   | Source Han Sans TC    |
 | KaigenSansHWJ-\*.ttf     | Kaigen Sans HW J  | SourceHanSansHW-\*.otf   | Source Han Sans HW    |
 | KaigenSansHWK-\*.ttf     | Kaigen Sans HW K  | SourceHanSansHWK-\*.otf  | Source Han Sans HW K  |
+| KaigenSansHWHC-\*.ttf    | Kaigen Sans HW HC | SourceHanSansHWSC-\*.otf | Source Han Sans HW HC |
 | KaigenSansHWSC-\*.ttf    | Kaigen Sans HW SC | SourceHanSansHWSC-\*.otf | Source Han Sans HW SC |
 | KaigenSansHWTC-\*.ttf    | Kaigen Sans HW TC | SourceHanSansHWTC-\*.otf | Source Han Sans HW TC |
 | KaigenSerifJ-\*.ttf      | Kaigen Serif J    | SourceHanSerif-\*.otf    | Source Han Serif      |
@@ -49,7 +51,7 @@ This repository contains the following typefaces:
 
 They are converted from:
 
-- [Source Han Sans](https://github.com/adobe-fonts/source-han-sans), version 1.004
+- [Source Han Sans](https://github.com/adobe-fonts/source-han-sans), version 2.000
 
 - [Source Han Serif](https://github.com/adobe-fonts/source-han-serif), version 1.001
 
