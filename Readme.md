@@ -48,6 +48,11 @@ This repository contains the following typefaces:
 | KaigenSerifK-\*.ttf      | Kaigen Serif K    | SourceHanSerifK-\*.otf   | Source Han Serif K    |
 | KaigenSerifSC-\*.ttf     | Kaigen Serif SC   | SourceHanSerifSC-\*.otf  | Source Han Serif SC   |
 | KaigenSerifTC-\*.ttf     | Kaigen Serif TC   | SourceHanSerifTC-\*.otf  | Source Han Serif TC   |
+| KaigenMonoJ-\*.ttf       | Kaigen Mono J     | SourceHanMono-\*.otf     | Source Han Mono       |
+| KaigenMonoK-\*.ttf       | Kaigen Mono K     | SourceHanMonoK-\*.otf    | Source Han Mono K     |
+| KaigenMonoHC-\*.ttf      | Kaigen Mono HC    | SourceHanMonoHC-\*.otf   | Source Han Mono HC    |
+| KaigenMonoSC-\*.ttf      | Kaigen Mono SC    | SourceHanMonoSC-\*.otf   | Source Han Mono SC    |
+| KaigenMonoTC-\*.ttf      | Kaigen Mono TC    | SourceHanMonoTC-\*.otf   | Source Han Mono TC    |
 
 They are converted from:
 
@@ -55,11 +60,13 @@ They are converted from:
 
 - [Source Han Serif](https://github.com/adobe-fonts/source-han-serif), version 1.001
 
+- [Source Han Mono](https://github.com/adobe-fonts/source-han-mono), version 1.002
+
 ## The “J” suffix
 
 The Japanese version has an additional “J” suffix, which does not exist in the
 original font files. This is because the original version features OpenType
-localization support, you simply select “Source Han Sans / Serif” and the
+localization support, you simply select “Source Han Sans / Serif / Mono” and the
 computer matches your language settings automatically; while the converted
 version loses this ability, the additional “J” suffix reminds you to select the
 correct version for your language.
