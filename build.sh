@@ -22,7 +22,7 @@ fi
 echo "Input: $1" >&2
 echo "Output: $ttf_filename" >&2
 
-time otfccdump -o temp1.json "$1"
+time otfccdump -o "$ttf_filename"-temp1.json "$1"
 echo "Stage 1/5 clear" >&2
 
 if basename "$1" .otf | grep -q 'SourceHan\(Sans\|Serif\|Mono\)\(HW\)\?-'
@@ -33,10 +33,10 @@ then
         -e 's/"fontName": \?"SourceHan\(Sans\|Serif\|Mono\)\(HW\)\?/\0J/g' \
         -e 's/"fullName": \?"Source Han \(Sans\|Serif\|Mono\)\( HW\)\?/\0 Japanese/g' \
         -e 's/"familyName": \?"Source Han \(Sans\|Serif\|Mono\)\( HW\)\?/\0 Japanese/g' \
-        temp1.json > temp2.json
+        "$ttf_filename"-temp1.json > "$ttf_filename"-temp2.json
     echo "Stage 2/5 clear" >&2
 else
-    mv temp1.json temp2.json
+    mv "$ttf_filename"-temp1.json "$ttf_filename"-temp2.json
     echo >&2
     echo "Stage 2/5 skip" >&2
 fi
@@ -53,13 +53,13 @@ time sed \
     -e 's/본/회원/g' \
     -e 's/ \xa9/ ©/g' \
     -e 's|"Copyright \([^"]*\)"|"Copyright \1\\nCopyright © 2017 Star Brilliant (https://github.com/m13253/kaigen-fonts), James Swineson, Dingyuan Wang."|g' \
-    temp2.json > temp3.json
+    "$ttf_filename"-temp2.json > "$ttf_filename"-temp3.json
 echo "Stage 3/5 clear" >&2
 
-time otfcc-c2q < temp3.json | cat > temp4.json
+time otfcc-c2q < "$ttf_filename"-temp3.json | cat > "$ttf_filename"-temp4.json
 echo "Stage 4/5 clear" >&2
 
-time otfccbuild -o "$ttf_filename" temp4.json
+time otfccbuild -o "$ttf_filename" "$ttf_filename"-temp4.json
 echo "Stage 5/5 clear" >&2
 
-rm -f temp1.json temp2.json temp3.json temp4.json
+rm -f "$ttf_filename"-temp1.json "$ttf_filename"-temp2.json "$ttf_filename"-temp3.json "$ttf_filename"-temp4.json
