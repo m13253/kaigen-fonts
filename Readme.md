@@ -126,7 +126,7 @@ Copyright © 2014-2017 Adobe Systems Incorporated (http://www.adobe.com/), with
 Reserved Font Name ‘Source’. Source is a trademark of Adobe Systems
 Incorporated in the United States and/or other countries.
 
-Copyright © 2017-2020 Star Brilliant (https://github.com/m13253/kaigen-fonts),
+Copyright © 2017-2021 Star Brilliant (https://github.com/m13253/kaigen-fonts),
 James Swineson, Dingyuan Wang, extratype.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
