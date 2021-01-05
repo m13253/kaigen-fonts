@@ -56,7 +56,7 @@ This repository contains the following typefaces:
 
 They are converted from:
 
-- [Source Han Sans](https://github.com/adobe-fonts/source-han-sans), version 2.000
+- [Source Han Sans](https://github.com/adobe-fonts/source-han-sans), version 2.002
 
 - [Source Han Serif](https://github.com/adobe-fonts/source-han-serif), version 1.001
 
@@ -102,7 +102,9 @@ GiB will work) and plenty of time (several minutes for a single font file).
 
 ### Use precompiled Docker image for easy environment setup
 
-See [Jamesits/docker-otfcc-dev](https://github.com/Jamesits/docker-otfcc-dev). You may need this if you don't want to mess up with multiple version of Node.js on your machine. 
+See [Jamesits/docker-otfcc-dev](https://github.com/Jamesits/docker-otfcc-dev).
+You may need this if you don't want to mess up with multiple version of Node.js
+on your machine. 
 
 ### Configure manually
 
@@ -124,8 +126,8 @@ Copyright © 2014-2017 Adobe Systems Incorporated (http://www.adobe.com/), with
 Reserved Font Name ‘Source’. Source is a trademark of Adobe Systems
 Incorporated in the United States and/or other countries.
 
-Copyright © 2017 Star Brilliant (https://github.com/m13253/kaigen-fonts), James
-Swineson, Dingyuan Wang.
+Copyright © 2017-2020 Star Brilliant (https://github.com/m13253/kaigen-fonts),
+James Swineson, Dingyuan Wang, extratype.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This Font Software is distributed on an **“AS IS” BASIS, WITHOUT WARRANTIES OR
