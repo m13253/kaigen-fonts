@@ -21,7 +21,7 @@ The conversion is not lossless. OpenType-CFF uses cubic Bézier curves while
 TrueType uses quadratic ones, resulting a slightly changed shape after
 converting. Furthermore, you will lose all OpenType features available in the
 original fonts including localization support, vertical writing support and
-「⿺辶⿳穴⿰月⿰⿲⿱幺長⿱言馬⿱幺長刂心」(biáng).
+dynamic compositing 𰻞 (biáng) using 「⿺辶⿳穴⿰月⿰⿲⿱幺長⿱言馬⿱幺長刂心」.
 
 ## Download
 
